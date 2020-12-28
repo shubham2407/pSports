@@ -1,0 +1,65 @@
+<html>
+ <head>
+  <title>Psports logIn</title>
+    <link rel="stylesheet" type="text/css" href="styles/style.css" />
+ </head>
+ <body>
+	<div class="topnav" id="myTopnav">
+	<div id="logo2">&copy;P$PORTS </div>
+  <a href="index.html" >Home</a>
+  <a href="brands.html" >Brands</a>
+  <a href="contact.html">Contact Us</a>
+  <a href="about.html">About</a>
+  <a href="registernlogin.html" class="current">Register Here</a>
+
+</div>
+   <div class="login-page">
+   <div class="form">
+	  <form class="Login-form" action="login" Method="get">
+		<input type="text" id="email" name="email" placeholder="email id*"/>
+		<input type="password" id="password" name="password" placeholder="password*"/>
+		<input type="submit" value="Login" id="submit" onclick="validate()"/>
+ 
+		<!--<button onclick="validate()">login</button>-->
+ 
+		<a href="forgotpassword.html" class="button111" >Forgot Password?</a>
+		<p class="message">Not Registered?  <a href="#"><strong>Register</strong></a></p>
+	  </form>
+	
+	  <form class="register-form" action="register" Method="get">
+	   <input type="text" id="name" name="name" placeholder="full name*"/>
+	   <input type="text" id="email" name="email" placeholder="email id*"/>
+	   <input type="text" id="numb" name="numb" placeholder="contact no.*"/>
+	   <input type="password" id="password" name="password" placeholder="password*"/>
+	   <input type="password" id="password1" name="password1" placeholder="confirm password*"/>
+	   <input type="submit" value="Register" id="submit1" onclick="validate1()"/>
+	   
+	   <!--<button>Register</button>-->
+	   <p class="message">Already Registered?  <a href="#"><strong>Login</strong></a></p>
+	  	</form>
+
+   </div>
+   </div>
+
+   
+   <script src="scripts/login.js"></script>
+   <script src="scripts/register.js"></script>
+   <script src='https://code.jquery.com/jquery-3.2.1.min.js'>
+   </script>
+
+   <script>
+   $('.message a').click(function(){
+   $('form').animate({height: "toggle",opacity:"toggle"}, "slow");
+   });
+   </script>
+
+
+
+ </body>
+ <br><br><br><br>
+ <div class="fix">
+<footer>
+				<p>&copy; 2019 - P$ports.com </p>
+				</div>
+			</footer>
+</html>

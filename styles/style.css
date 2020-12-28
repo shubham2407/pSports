@@ -1,0 +1,131 @@
+body{
+     background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url("images/03672_HD.jpg");
+	 height:100vh;
+	 background-size:cover;
+	 background-position:center; 
+}
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+ 	
+}
+.topnav a{
+	border-right:1px solid #bbb;
+}
+/* Style the links inside the navigation bar */
+.topnav a {
+    float:left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+	font-family:Century Gothic;	
+}
+
+
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+	
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+	
+}
+.current {
+    background-color:grey;
+}
+
+.login-page{
+    width: 360px;
+	padding: 10% 0 0;
+	margin: auto;
+}
+.form{
+    position:relative;
+	z-index:1;
+	background: rgba(255, 100, 100, 0.4);
+	max-width:0 auto 100px;
+	padding:45px;
+	text-align:center;
+}
+.form input{
+     font-family:"Roboto", sans-serif;
+	 outline:1;
+	 background: #f2f2f2;
+	 width:100%;
+	 border:0;
+	 margin:0 0 13px;
+	 padding:15px;
+	 box-sizing:border-box;
+	 font-size:14px;
+}
+/* .form button{
+     font-family:"Roboto",sans-serif;
+	 text-transform:uppercase;
+	 outline:0;
+	 background:#4CAF50;
+	 width:100%;
+	 border:0;
+	 padding:15px;
+	 color:#FFFFFF;
+	 font-size:14px;
+	 cursor:pointer;
+	 border-radius:20px;
+}
+.form button:hover,.form button:active{
+            background:#43A047;
+}*/
+#logo2{
+	float:right;
+	color:white;
+	width:210px;
+	font-size:40px;
+	font-family:Century Gothic;
+}
+
+input[type=button]{
+font-size: 16px;
+background: linear-gradient(#ffbc00 5%, #ffdd7f 100%);
+border: 1px solid #e5a900;
+color: #4E4D4B;
+font-weight: bold;
+cursor: pointer;
+width: 100%;
+border-radius: 5px;
+padding: 10px 0;
+outline:none;
+}
+input[type=button]:hover{
+background: linear-gradient(#ffdd7f 5%, #ffbc00 100%);
+}
+
+.form .message{
+      margin: 15px 0 0;
+	  color: aliceblue;
+	  font-size:12px;
+}
+.form .message a{
+     color: #4CAF50;
+	 text-decoration: none;
+}
+.form .register-form{
+        display: none;
+}
+.button111{
+       font-size:14px;
+       color:yellow;
+	   text-decoration:none;
+}
+.fix{
+	text-align:center;
+	font-size:20px;
+	font-family:Century Gothic;
+	clear:both;

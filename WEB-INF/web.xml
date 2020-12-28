@@ -1,0 +1,30 @@
+<web-app>
+
+    <servlet>
+        <servlet-name> Project </servlet-name>
+        <servlet-class> com.project.Contact.Contact </servlet-class> 
+    </servlet>
+    <servlet-mapping>
+        <servlet-name> Project </servlet-name>
+        <url-pattern> /contact </url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name> Pro </servlet-name>
+        <servlet-class> com.project.Login.Login </servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name> Pro </servlet-name>
+        <url-pattern> /login </url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name> Proj </servlet-name>
+        <servlet-class> com.project.Register.Register </servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name> Proj </servlet-name>
+        <url-pattern> /register </url-pattern>
+    </servlet-mapping>
+
+</web-app>

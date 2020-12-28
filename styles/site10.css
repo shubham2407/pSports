@@ -1,0 +1,24 @@
+/*styles THANK YOU Text in signupthanks.html*/
+.thank{
+	padding-top:170px;
+	text-align:center;
+	font-family:Orator STD;
+}
+/*styles the button*/
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 22px;
+    margin: 4px 2px;
+    cursor: pointer;
+	font-family:arial;
+}
+
+.button:hover{
+	background-color:grey;
+}

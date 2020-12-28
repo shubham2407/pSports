@@ -1,0 +1,32 @@
+/*styles button*/
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 22px;
+    margin: 4px 2px;
+    cursor: pointer;
+	font-family:arial;
+}
+
+.button:hover{
+	background-color:grey;
+}
+
+/*styles Text in buythanks.html*/
+.hope{
+	text-align:center;
+	font-family:arial;
+}
+
+.fix{
+	top-margin:10px;
+	text-align:center;
+	font-size:20px;
+	font-family:Century Gothic;
+	clear:both;
+}

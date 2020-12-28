@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>form</title>
+<style type="text/css">
+*
+{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: helvetica;
+
+}
+body{
+
+
+}
+.main
+{
+width: 500px;
+margin: 50px auto;
+border-radius: 10px;
+border:3px solid #dc143c;
+background-color: #fffaf0;
+border-radius: 10px;
+border-left: 40px solid #dc143c;
+}
+.info{
+width: 100%;
+padding: 8px;
+background-color: #dc143c;
+
+
+font-size: 20px;
+font-weight: bold;
+text-align: center;
+color: #fff;
+text-shadow: 1px 1px 2px #000;
+
+}
+.form-box
+{
+padding: 25px;
+}
+label
+{
+color: navy;
+font-size: 20px;
+}
+.inp,#msg-box{
+width: 100%;
+padding: 10px;
+margin-bottom: 5px;
+margin-top: 3px;
+border:2px solid #dc143c;
+border-radius: 5px;
+font-weight: bold;
+border-right: 20px solid #dc143c;
+border-left: 20px solid #dc143c;
+color: navy;
+}
+.inp:focus, #msg-box:focus{
+outline: none;
+border:2px solid navy;
+border-right: 20px� solid navy;
+border-left: 20px� solid navy;
+}
+#msg-box{
+resize: none;
+height: 80px;
+}
+.sub-btn
+{
+width: 100%;
+padding: 10px;
+margin-top: 5px;
+border:none;
+color:white;
+border-radius: 5px;
+background:linear-gradient(#dc133c,#800000);
+}
+.sub-btn:hover
+{
+background:linear-gradient(#800000,#dc133c);
+}
+.fix{
+	top-margin:10px;
+	text-align:center;
+	font-size:20px;
+	font-family:Century Gothic;
+	clear:both;
+}
+/*#logo2{
+	float:right;
+	color:black;
+	width:210px;
+	font-size:40px;
+	font-family:Century Gothic;
+}*/
+
+
+</style>
+
+</head>
+<body>
+<!--<div id="logo2">&copy;P$PORTS </div>-->
+<div class="main">
+<div class="info">Give your valuable feedback</div>
+<form action="#" method="post" name="form" class= "form-box">
+<label for="name">Name</label><br>
+<input type="text" name="name" class="inp" placeholder="enter your name" required=""><br>
+<label for="email">Email_ID</label><br>
+<input type="email" name="email" class="inp" placeholder="enter your email" required=""><br>
+<label for="phone">Phone</label><br>
+<input type="tel" name="phone" class="inp" placeholder="enter your phone" required=""><br>
+<label for="message">Message</label><br>
+<textarea name="msg" id="msg-box" placeholder="enter your message here...."></textarea><br>
+<input type="submit" name="submit" value="Send" class="sub-btn" onclick="return()"/>
+<!--&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="index.html" class="sub-btn">Send</a>-->
+</div>
+<div>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="index.html" class="sub-btn">Explore More</a>
+</div>
+
+</body><br>
+<script src="scripts/feedback.js"> </script>
+<div class="fix">
+			<footer>
+				<p>&copy; 2019 - P$ports.com </p>
+				</div>
+			</footer>
+
+</html>

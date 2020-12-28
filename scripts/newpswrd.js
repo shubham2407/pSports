@@ -1,0 +1,1 @@
+window.alert("Your Password Has Been Changed");

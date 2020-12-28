@@ -1,0 +1,458 @@
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+ 	
+}
+
+.date00{
+	font-size:30px;
+	border:1px solid black;
+	font-family:Orator STD;
+}
+
+.fa {
+  padding: 10px;
+  font-size: 30px;
+  width: 40px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 5px;
+  border-radius: 850%;
+}
+
+h1{
+	padding-top:30px;
+}
+/*make fa-fa hover*/
+.fa:hover {
+    opacity: 0.7;
+}
+
+/*styles fa-fa facebook*/ 
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+/*styles fa-fa instagram*/
+.fa-instagram {
+  background: red;
+  color: white;
+}
+
+/*styles fa-fa twitter*/
+.fa-twitter {
+  background: blue;
+  color: white;
+}
+
+/*styles Site name given in navigation bar*/
+#logo2{
+	float:right;
+	color:white;
+	width:210px;
+	font-size:40px;
+	font-family:Century Gothic;
+}
+
+/*makes the footer positer fixed and styles it*/
+.fix{
+	text-align:center;
+	font-size:20px;
+	font-family:Century Gothic;
+	clear:both;
+}
+
+/*makes current tab nav bar hover*/ 
+li a:hover:not(.current) {
+    background-color: #111;
+}
+
+.topnav a{
+	border-right:1px solid #bbb;
+}
+
+.current {
+    background-color:grey;
+}
+
+.h2{
+	font-family:Century Gothic;
+	font-size:20px;
+}
+
+.h4{
+	font-size:21px;
+}
+
+h5{
+	font-size:20px;
+	padding-top:10px;
+}
+
+h6{
+	font-size:18px;
+}
+
+.btn1{
+	float:left;
+	width:650px;
+
+}
+
+
+.button12 {
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 10px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.button12:hover{
+	background-color:grey
+}
+
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float:left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+	font-family:Century Gothic;	
+}
+
+
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+	
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+	
+}
+
+.container{
+	border:1px solid black;
+	float:right;
+}
+
+.h1{
+	text-align:center;
+}
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+  	-moz-box-sizing: border-box;
+		-o-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+
+	body {
+		width: 100%;
+		height: 100%;
+		font-family: "helvetica neue", helvetica, arial, sans-serif;
+		font-size: 13px;
+		text-align: center;
+		b
+	}
+
+	ul{
+		margin: 30px auto;
+		text-align: center;
+		padding:150px;
+	}
+
+	li{
+		list-style: none;
+		position: relative;
+		display: inline-block;
+		width: 100px;
+		height: 100px;
+	}
+	
+	
+
+	@-moz-keyframes rotate {
+		0% {transform: rotate(0deg);}
+		100% {transform: rotate(-360deg);}
+	}
+
+	@-webkit-keyframes rotate {
+		0% {transform: rotate(0deg);}
+		100% {transform: rotate(-360deg);}
+	}
+
+	@-o-keyframes rotate {
+		0% {transform: rotate(0deg);}
+		100% {transform: rotate(-360deg);}
+	}
+
+	@keyframes rotate {
+		0% {transform: rotate(0deg);}
+		100% {transform: rotate(-360deg);}
+	}
+
+	/*styles the round button on brand page*/
+	.round {
+		display: block;
+		position: absolute;
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		padding-top: 30px;		
+		text-decoration: none;		
+		text-align: center;
+		font-size: 25px;		
+		text-shadow: 0 1px 0 rgba(255,255,255,.7);
+		letter-spacing: -.065em;
+		font-family: "Hammersmith One", sans-serif;		
+		-webkit-transition: all .25s ease-in-out;
+		-o-transition: all .25s ease-in-out;
+		-moz-transition: all .25s ease-in-out;
+		transition: all .25s ease-in-out;
+		box-shadow: 2px 2px 7px rgba(0,0,0,.2);
+		border-radius: 300px;
+		z-index: 1;
+		border-width: 4px;
+		border-style: solid;
+		
+	}
+
+	/*makes the round button hover on brand page*/
+	.round:hover {
+		width: 130%;
+		height: 130%;
+		left: -15%;
+		top: -15%;
+		font-size: 33px;
+		padding-top: 38px;
+		-webkit-box-shadow: 5px 5px 10px rgba(0,0,0,.3);
+		-o-box-shadow: 5px 5px 10px rgba(0,0,0,.3);
+		-moz-box-shadow: 5px 5px 10px rgba(0,0,0,.3);
+		box-shadow: 5px 5px 10px rgba(0,0,0,.3);
+		z-index: 2;
+		border-size: 10px;
+		-webkit-transform: rotate(-360deg);
+		-moz-transform: rotate(-360deg);
+		-o-transform: rotate(-360deg);
+		transform: rotate(-360deg);
+	}
+	
+/*styles button a*/
+	a.red {
+		background-color: rgba(239,57,50,1);
+		color: rgba(133,32,28,1);
+		border-color: rgba(133,32,28,.2);
+		
+	}
+
+	/*makes red round button hover*/
+	a.red:hover {
+		color: rgba(239,57,50,1);
+	}
+
+	/*styles green round button*/
+	a.green {
+		background-color: rgba(1,151,171,1);
+		color: rgba(0,63,71,1);
+		border-color: rgba(0,63,71,.2);
+	}
+
+	/*makes green round button hover*/
+	a.green:hover {
+		color: rgba(1,151,171,1);
+	}
+
+	/*styles yellow round button*/
+	a.yellow {
+		background-color: rgba(252,227,1,1);
+		color: rgba(153,38,0,1);
+		border-color: rgba(153,38,0,.2);
+	}
+
+	/*makes yellow round button hover*/
+	a.yellow:hover {
+		color: rgba(252,227,1,1);
+	}
+
+	.round span.round {
+		display: block;
+		opacity: 0;
+		-webkit-transition: all .5s ease-in-out;
+		-moz-transition: all .5s ease-in-out;
+		-o-transition: all .5s ease-in-out;
+		transition: all .5s ease-in-out;
+		font-size: 1px;
+		border: none;
+		padding: 40% 20% 0 20%;
+		color: #fff;
+	}
+
+	.round span:hover {
+		opacity: .85;
+		font-size: 16px;
+		-webkit-text-shadow: 0 1px 1px rgba(0,0,0,.5);
+		-moz-text-shadow: 0 1px 1px rgba(0,0,0,.5);
+		-o-text-shadow: 0 1px 1px rgba(0,0,0,.5);
+		text-shadow: 0 1px 1px rgba(0,0,0,.5);	
+	}
+
+	.green span {
+		background: rgba(0,63,71,.7);		
+	}
+
+	.red span {
+		background: rgba(133,32,28,.7);		
+	}
+
+	.yellow span {
+		background: rgba(161,145,0,.7);	
+	}
+	
+	.round green{
+		padding:800px;
+	}
+	
+	a.grey {
+		background-color: grey;
+		color: rgba(133,32,28,1);
+		border-color: rgba(133,32,28,.2);	
+	}
+
+	a.grey:hover {
+		color: grey;
+	}
+	
+	a.white {
+		background-color: white;
+		color: rgba(133,32,28,1);
+		border-color: rgba(133,32,28,.2);	
+	}
+
+	a.grey:hover {
+		color: white;
+	}
+	
+	
+	
+	div#main{
+width:1200px;
+margin:0 auto;
+font-family:'Ubuntu',sans-serif
+}
+div#form_sample{
+text-align:center;
+border:1px solid #ccc;
+width:600px;
+padding:0 40px 15px;
+margin-top:20px;
+box-shadow:0 0 15px;
+border-radius:6px;
+float:left;
+}
+#main h1{
+margin-top:40px
+}
+hr{
+margin-top:-5px
+}
+label{
+float:left;
+font-size:16px
+}
+input[type="text"],input[type="email"]{
+width:100%;
+margin-top:10px;
+height:45px;
+margin-bottom:25px;
+padding:10px;
+border:3px solid #2BC1F2
+}
+textarea{
+width:100%;
+border:3px solid #2BC1F2;
+padding:10px;
+margin-bottom:25px;
+margin-top:10px;
+height:100px;
+resize:none
+}
+input[type="submit"]{
+width:100%;
+padding:10px 45px;
+background-color:#2BC1F2;
+border:none;
+color:#fff;
+font-size:18px;
+font-weight:700;
+cursor:pointer;
+font-family:'Ubuntu',sans-serif
+}
+div#fugo{
+float:right
+}
+
+#button0 {
+  text-align: center;
+}
+
+.btn {
+  border-radius: 5px;
+  padding: 4px 8px;
+  font-size: 20px;
+  text-decoration: none;
+  margin: 20px;
+  color: #fff;
+  position: relative;
+  left:600px;
+  display: inline-block;
+}
+
+.btn:active {
+  transform: translate(0px, 5px);
+  -webkit-transform: translate(0px, 5px);
+  box-shadow: 0px 1px 0px 0px;
+}
+
+.blue {
+  background-color: #55acee;
+  box-shadow: 0px 5px 0px 0px #3C93D5;
+}
+
+.blue:hover {
+  background-color: #6FC6FF;
+}
+
+.green {
+  background-color: #2ecc71;
+  box-shadow: 0px 5px 0px 0px green;
+}
+
+.green:hover {
+  background-color: white;
+}
+
+.h3{
+	font-size:20px;
+	border:2px solid black;
+}

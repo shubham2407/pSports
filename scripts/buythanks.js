@@ -1,0 +1,1 @@
+window.alert("Thank You For Shopping With Us. Your Items Will Be Shipped With In 48 hours!");
